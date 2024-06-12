@@ -6,6 +6,7 @@ import (
 	"github.com/grokify/go-wordpressxml"
 )
 
+// Function to create the executable for HTML export
 func main() {
 	inFileName := flag.String("infile", "", "The name of the XML file to convert")
 	outFileName := flag.String("outfile", "", "The name of the HTML file to export to")
