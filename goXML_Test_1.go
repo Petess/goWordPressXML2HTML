@@ -28,5 +28,5 @@ func main() {
 		panic(err)
 	}
 
-	wp.ItemsToHTML(*outFileName)
+	wp.ItemsToHTML(*outFileName, "")
 }
