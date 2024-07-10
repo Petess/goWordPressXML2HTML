@@ -10,6 +10,7 @@ import (
 func main() {
 	inFileName := flag.String("infile", "", "The name of the XML file to convert")
 	outFileName := flag.String("outfile", "", "The name of the HTML file to export to")
+	eltitle := flag.String("title", "", "A title for the export file (optional)")
 
 	flag.Parse()
 
@@ -28,5 +29,5 @@ func main() {
 		panic(err)
 	}
 
-	wp.ItemsToHTML(*outFileName, "")
+	wp.ItemsToHTML(*outFileName, *eltitle)
 }
