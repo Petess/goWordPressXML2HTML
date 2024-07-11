@@ -4,7 +4,7 @@ This code is for a converter that converts WordPressXML into HTML that enables i
 
 # Notes
 
-The code currently relies on a fork of the [go-wordpressxml library ](https://github.com/grokify/go-wordpressxml) 
+The code currently relies on the latest version of [go-wordpressxml library ](https://github.com/grokify/go-wordpressxml) 
 
 The system is similar to the Python program - [wordpressXML2HTML](https://github.com/Petess/wordpressXML2HTML)
 
